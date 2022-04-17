@@ -2,10 +2,10 @@ console.log("My index.js file is loaded correctly. Nay? Yay! :)");
 
 $(document).ready(function(){
   $(".out").click(function(){
-    $("p").fadeOut();
+    $("#fadeContainer p").fadeOut();
   });
   $(".in").click(function(){
-    $("p").fadeIn();
+    $("#fadeContainer p").fadeIn();
   });
 });
 

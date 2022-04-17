@@ -21,16 +21,16 @@
         </div>
         <nav class="inline-block">
             <ul>
-                <li class="navHover">About</li>
-                <li class="navHover">Skills</li>
-                <li class="navHover">Work</li>
-                <li class="navHover">Contact</li>
+                <li class="navHover"><a href="#aboutAnchor">About</a></li>
+                <li class="navHover"><a href="#skillsAnchor">Skills</a></li>
+                <li class="navHover"><a href="#workAnchor">Work</a></li>
+                <li class="navHover"><a href="#contactAnchor">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="background-container">
-        <section class="heroImg">
+        <section class="heroImg" id="aboutAnchor">
             <div class="content">
                 <img class="redImg">
                 <h3>About me, Red</h3>
@@ -42,20 +42,26 @@
 
     <!-- My UX Skills section coded using CSS flex -->
 
-    <h1 class="mySkills">My Skills (AKA practicing jquery section)</h1>
+    <h1 class="mySkills" id="skillsAnchor">My Skills (also practicing jquery here...)</h1>
     <section class="flexContainer">
         <div>
             <img class="imgResearch" src="images/image.png">
             <h3>UX Researcher</h3>
-            <p>I bring compassion and interest in people and their needs to my role as a researcher.</p>
-            <button class="out">Fade out</button>
-            <button class="in">Fade back in</button>
+            <span id="fadeContainer">
+                <p>I bring compassion and interest in people and their needs to my role as a researcher.</p>
+            </span>   
+        <button class="out">Fade out</button>
+        <button class="in">Fade back in</button>
+
         </div>
         <div>
             <img class="imgResearch" src="images/image.png">
             <div class="researchButton" id="flip">UI Designer section</div>
-            <div id="panel">
-                <p>My goal is to create designs where the user feels like I know them, what they want, and how they want to accomplish it.</p>
+            <div id="placeHolder">
+                <div id="panel">
+                    <p>My goal is to create designs where the user feels like I know them, what they want, and how they
+                        want to accomplish it.</p>
+                </div>
             </div>
         </div>
         <div>
@@ -68,8 +74,8 @@
     </section>
 
     <!-- My Work Section Constructed using CSS Grid -->
-    <div class="myWork">
-        <h1>My Work</h1>
+    <div class="myWork" id="workAnchor">
+        <h1>My Work(ing with grids)</h1>
         <div id="workGrid">
             <div class="imgWork1">
                 <img src="images/RAAD.png">
@@ -88,7 +94,7 @@
                 <button class="workButton">View project</button>
             </div>
             <div class="imgWork3">
-                <img src="images/maxfund.png">
+                <img src="images/maxfund.png" class="maxfund">
             </div>
             <div class="projectThree">
                 <h3>Project Three</h3>
@@ -97,15 +103,46 @@
             </div>
         </div>
     </div>
-    <footer>
-        <ul class="foot">
-            <li class="navHover">About</li>
-            <li class="navHover">Skills</li>
-            <li class="navHover">Work</li>
-            <li class="navHover">Contact</li>
-        </ul>
-        </nav>
-    </footer>
+
+
+
+    <div class="formContainer">
+        <!-- <form action="https://www.du.edu/"> -->
+        <h1 id="contactAnchor">Contact me ;}</h1>
+        <label for="fname" style="font-family: 'PT Sans', sans-serif;
+    font-weight: 400;">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="">
+        <label for="lname" style="font-family: 'PT Sans', sans-serif;
+    font-weight: 400;">Email address</label>
+        <input type="text" id="lname" name="lastname" placeholder="">
+        <!-- 
+    <label for="country" style="font-family: 'PT Sans', sans-serif;
+    font-weight: 400;">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+       -->
+        </select>
+
+        <label for="subject" style="font-family: 'PT Sans', sans-serif;
+    font-weight: 400;">How can I help?</label>
+        <textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea>
+        <div class="buttonHolder">
+            <input type="submit" value="This doesn't go anywhere, but thanks, anyway!">
+        </div>
+        </form>
+
+
+        <footer>
+            <ul class="foot">
+                <li class="navHover"><a href="#aboutAnchor">About</a></li>
+                <li class="navHover"><a href="#skillsAnchor">Skills</a></li>
+                <li class="navHover"><a href="#workAnchor">Work</a></li>
+                <li class="navHover"><a href="#contactAnchor">Contact</a></li>
+            </ul>
+            </nav>
+        </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/index.js"></script>

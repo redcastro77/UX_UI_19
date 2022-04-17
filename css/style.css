@@ -12,7 +12,7 @@ div.container {
 }
 
 div.container h1 {
-    margin-top: 42px;
+    margin: 40px 0 0 -5%;
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     color: #FE5F55;
@@ -51,12 +51,13 @@ div.container h1 {
     margin: 15px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
 }
 
 .resumeButton:hover {
     background-color: #336671;
     border: none;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -85,6 +86,7 @@ div.container h1 {
     background-color: ;
     filter: grayscale(2%)
 }
+
 .navLink {
     text-decoration: none;
     width: 25%;
@@ -109,6 +111,7 @@ div.container h1 {
     /* display: inline-block;
     filter: grayscale(75%) */
 }
+
 /* 
 .redImg:hover {
     content: url(../images/redcastro.jpg);
@@ -135,36 +138,68 @@ div.container h1 {
     padding-top: 10px;
 }
 
+
 .flexContainer {
     display: flex;
     padding: 20px 20px;
+    margin-bottom: 3%;
     /* justify-content: center; */
+    /* outline: 2px dashed orange; */
+}
+
+#placeHolder {
+    margin-top: 3%;
+    width: 80%;
+    height: 30%;
+    outline: 1.5px dashed #739696;
 }
 
 .flexContainer div {
     width: 33%;
-    padding: 10px;
+    padding-bottom: 2%;
+    /* outline: 2px solid red; */
 }
 
 .flexContainer p {
-    width: 80%;
+    width: 90%;
+    /* align-items: flex-start; */
+    /* outline: 2px dashed orange; */
 }
+
+#panel {
+    /* margin-top: 10%; */
+    width: 100%;
+    height: 90%;
+    padding: 1%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    /* outline: 2px dashed red; */
+}
+
+#panel p {
+    margin-top: 2%;
+    width: 100%;
+
+    /* outline: 3px dashed purple; */
+} 
 
 .imgResearch {
     width: 65%;
     height: auto;
+       /* outline: 2px dashed red;  */
 }
 
 .imgAnimate {
-   height: auto;
-   position: relative;
+    width: 65%;
+    height: auto;
+    position: relative;
 }
 
 .out {
     background-color: #739696;
     border: none;
     color: white;
-    padding: 15px 24px;
+    padding: 12px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -173,13 +208,15 @@ div.container h1 {
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
     margin-right: 5px;
+    cursor: pointer;
+    /* margin-bottom: 50%; */
 }
 
 .out:hover {
-    background-color:#336671;
+    background-color: #336671;
     border: none;
-    color:whitesmoke;
-    padding: 15px 24px;
+    color: whitesmoke;
+    padding: 12px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -187,13 +224,14 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
+    /* margin-bottom: 50%; */
 }
 
 .in {
     background-color: #739696;
     border: none;
     color: white;
-    padding: 15px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -201,14 +239,16 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
-    
+    cursor: pointer;
+    /* margin-bottom: 1%; */
+
 }
 
 .in:hover {
-    background-color:#336671;
+    background-color: #336671;
     border: none;
-    color:whitesmoke;
-    padding: 15px;
+    color: whitesmoke;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -216,15 +256,17 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
-    
+    /* margin-bottom: 1%; */
+
 }
 
 .researchButton {
+    /* margin: 2%; */
     width: 100%;
     background-color: #739696;
     border: none;
     color: white;
-    padding: 12px 28px;
+    /* padding: 13px 28px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -232,13 +274,15 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
 }
 
 .researchButton:hover {
+    /* margin-top: 2%; */
     background-color: #336671;
     border: none;
-    color:whitesmoke;
-    padding: 12px 28px;
+    color: whitesmoke;
+    /* padding: 12px 28px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -246,23 +290,18 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
- }
+}
 
 #flip {
-    padding: 10px;
-    margin: 20px 0px 0px 0px;
+    margin-top: 2%;
     text-align: center;
+    padding: 12px 28px;
     width: 50%;
     /* background-color: whitesmoke; */
     /* border: solid 1px #739696; */
-  }
-  #panel {
-    padding: 0px;
-    margin-top: 0px;
-    text-align: start;
-    display: none;
-    width: 100%;
 }
+
+
 
 .animate {
     background-color: #739696;
@@ -276,12 +315,13 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
-} 
+    cursor: pointer;
+}
 
 .animate:hover {
     background-color: #336671;
     border: none;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -290,7 +330,7 @@ div.container h1 {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
- }
+}
 
 
 .myWork {
@@ -312,49 +352,75 @@ div.container h1 {
     grid-template-areas:
         "imgWork1 projectOne"
         "imgWork2 projectTwo"
-        "imgWork3 projectThree"
-    ;
+        "imgWork3 projectThree";
+    outline: 3px solid #336671;
+    padding-bottom: 1%;
+
+}
+
+.maxfund {
+    max-height: 95%;
 }
 
 #workGrid img {
     width: 100%;
     height: auto;
     max-width: 250px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 10px auto 10px auto;
     display: block;
 }
 
 .imgWork1 {
     grid-area: imgWork1;
+    margin: 0 1% 0 3%;
+    outline: 2px dashed #739696;
+
 }
 
 .imgWork2 {
     grid-area: imgWork2;
+    margin: 0 1% 0 3%;
+    outline: 2px dashed #739696;
 }
 
 .imgWork3 {
     grid-area: imgWork3;
+    margin: 0 1% 0 3%;
+    outline: 2px dashed #739696;
+
 }
 
 .projectOne {
     grid-area: projectOne;
+    margin: 2% 2% 0 1.5%;
+    outline: 2px dashed #739696;
 }
 
 .projectTwo {
     grid-area: projectTwo;
+    margin: 2% 2% 0 1.5%;
+    outline: 2px dashed #739696;
 }
 
 .projectThree {
     grid-area: projectThree;
+    margin: 2% 2% 0 1.5%;
+    outline: 2px dashed #739696;
 }
 
 .imgWork1,
 .imgWork2,
-.imgWork3,
+.imgWork3 {
+    margin-top: 3%;
+    /* padding: 10px; */
+}
+
 .projectOne,
 .projectTwo,
 .projectThree {
-    padding: 5px;
+    /* margin-left: 20px; */
+    padding-left: 5%;
 }
 
 nav {
@@ -367,6 +433,20 @@ ul {
     margin-left: auto;
     color: #d1d1d1;
 }
+
+a {
+    width: 40%;
+    margin-left: auto;
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FE5F55;
+    text-decoration: underline;
+    text-decoration-color: #d1d1d1;
+}
+
 
 li {
     display: inline-block;
@@ -388,12 +468,13 @@ li {
     border-radius: 4px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
 }
 
 .workButton:hover {
     background-color: #336671;
     border: none;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -433,9 +514,60 @@ p {
     font-weight: 400;
 }
 
-#panel p {
+
+.formContainer {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form body {
     font-family: 'PT Sans', sans-serif;
-font-weight: 400;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    background-color: #739696;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+input[type=submit]:hover {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    background-color: #336671;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+.buttonHolder {
+    text-align: center;
 }
 
 footer {
