@@ -28,35 +28,42 @@
             </ul>
         </nav>
     </header>
-    <div class="background">
+
+    <div class="background-container">
         <section class="heroImg">
             <div class="content">
-                <img src="images/redcastro.jpg">
+                <img class="redImg">
                 <h3>About me, Red</h3>
                 <p>This is in the works!</p>
                 <button class="resumeButton">Résumé</button>
             </div>
         </section>
     </div>
+
     <!-- My UX Skills section coded using CSS flex -->
 
-    <h1 class="mySkills">My Skills</h1>
+    <h1 class="mySkills">My Skills (AKA practicing jquery section)</h1>
     <section class="flexContainer">
         <div>
             <img class="imgResearch" src="images/image.png">
             <h3>UX Researcher</h3>
             <p>I bring compassion and interest in people and their needs to my role as a researcher.</p>
+            <button class="out">Fade out</button>
+            <button class="in">Fade back in</button>
         </div>
         <div>
             <img class="imgResearch" src="images/image.png">
-            <h3>UI Designer</h3>
-            <p>My goal is to create designs where the user feels like I know them, what they want, and how they want to
-                accomplish it.</p>
+            <div class="researchButton" id="flip">UI Designer section</div>
+            <div id="panel">
+                <p>My goal is to create designs where the user feels like I know them, what they want, and how they want
+                    to accomplish it.</p>
+            </div>
         </div>
         <div>
-            <img class="imgResearch" src="images/image.png">
+            <img class="imgAnimate" src="images/image.png">
             <h3>Collaborator</h3>
             <p>I am thoughtful and inquisitive. I want to learn and improve--as a human and as a designer.</p>
+            <button class="animate">Slide the nondescript image</button>
         </div>
 
     </section>

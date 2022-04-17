@@ -25,23 +25,66 @@ div.container h1 {
 }
 
 .rSmile {
-    content: url(/images/rsmile.png);
+    content: url(../images/rsmile.png);
     background-repeat: no-repeat;
     background-size: auto;
     display: inline-block;
 }
 
 .rSmile:hover {
-    content: url(/images/rcodesmile.png);
+    content: url(../images/rcodesmile.png);
     background-repeat: no-repeat;
     background-size: auto;
     display: inline-block;
 }
 
-.background {
-    background-color: #d1d1d1;
+.resumeButton {
+    background-color: #739696;
+    border: none;
+    color: whitesmoke;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 15px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
 }
 
+.resumeButton:hover {
+    background-color: #336671;
+    border: none;
+    color:whitesmoke;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 15px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 830px;
+    background-color: #d1d1d1;
+    filter: grayscale(100%);
+}
+
+.background-container:hover {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 830px;
+    background-color: ;
+    filter: grayscale(2%)
+}
 .navLink {
     text-decoration: none;
     width: 25%;
@@ -58,6 +101,28 @@ div.container h1 {
     margin: 0 auto;
     text-align: center;
 }
+
+.redImg {
+    content: url(../images/redcastro.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* display: inline-block;
+    filter: grayscale(75%) */
+}
+/* 
+.redImg:hover {
+    content: url(../images/redcastro.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: inline-block;
+    filter: brightness(95%);
+} */
+
+.navLink {
+    text-decoration: none;
+    width: 25%;
+}
+
 
 .foot {
     display: inline-block;
@@ -81,10 +146,152 @@ div.container h1 {
     padding: 10px;
 }
 
+.flexContainer p {
+    width: 80%;
+}
+
 .imgResearch {
     width: 65%;
     height: auto;
 }
+
+.imgAnimate {
+   height: auto;
+   position: relative;
+}
+
+.out {
+    background-color: #739696;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 5px;
+}
+
+.out:hover {
+    background-color:#336671;
+    border: none;
+    color:whitesmoke;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.in {
+    background-color: #739696;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.in:hover {
+    background-color:#336671;
+    border: none;
+    color:whitesmoke;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.researchButton {
+    width: 100%;
+    background-color: #739696;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.researchButton:hover {
+    background-color: #336671;
+    border: none;
+    color:whitesmoke;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+#flip {
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    width: 50%;
+    /* background-color: whitesmoke; */
+    /* border: solid 1px #739696; */
+  }
+  #panel {
+    padding: 0px;
+    margin-top: 0px;
+    text-align: start;
+    display: none;
+    width: 100%;
+}
+
+.animate {
+    background-color: #739696;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+} 
+
+.animate:hover {
+    background-color: #336671;
+    border: none;
+    color:whitesmoke;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+ }
+
 
 .myWork {
     padding: 60px 30px;
@@ -169,37 +376,6 @@ li {
     font-size: 20px;
 }
 
-.resumeButton {
-    background-color: #739696;
-    border: none;
-    color: whitesmoke;
-    padding: 12px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 4px;
-    margin: 15px;
-    font-weight: bold;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.resumeButton:hover {
-    background-color: #336671;
-    border: none;
-    color: #FE5F55;
-    padding: 12px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 4px;
-    margin: 15px;
-    font-weight: bold;
-    font-family: 'PT Sans', sans-serif;
-}
-
-
 .workButton {
     background-color: #739696;
     border: none;
@@ -217,7 +393,7 @@ li {
 .workButton:hover {
     background-color: #336671;
     border: none;
-    color: #FE5F55;
+    color:whitesmoke;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -255,6 +431,11 @@ h3 {
 p {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
+}
+
+#panel p {
+    font-family: 'PT Sans', sans-serif;
+font-weight: 400;
 }
 
 footer {
